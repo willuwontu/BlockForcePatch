@@ -13,7 +13,7 @@ namespace BlockForcePatch
     {
         private const string ModId = "com.willuwontu.rounds.BlockForcePatch";
         private const string ModName = "Block Force Patch";
-        public const string Version = "1.0.0"; // What version are we on (major.minor.patch)?
+        public const string Version = "1.0.1"; // What version are we on (major.minor.patch)?
 
         void Awake()
         {

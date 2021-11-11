@@ -39,7 +39,7 @@ namespace SimplyCards.Patches
 
             for (var i = 0; i < codes.Count; i++)
             {
-                UnityEngine.Debug.Log($"{i}: {codes[i].opcode}, {codes[i].operand}");
+                //UnityEngine.Debug.Log($"{i}: {codes[i].opcode}, {codes[i].operand}");
             }
 
             codes[131] = new CodeInstruction(OpCodes.Ldc_R4, 10f);

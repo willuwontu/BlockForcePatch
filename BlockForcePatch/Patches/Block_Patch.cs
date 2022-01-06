@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace SimplyCards.Patches
+namespace BlockForcePatch.Patches
 {
     [HarmonyPatch]
     class BlockForce_Patch
